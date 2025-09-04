@@ -144,7 +144,7 @@ document.head.appendChild(a);
 						<span class="detalhe">9 Complementos Grátis</span>
 						por
 						<span class="preco">
-							R$ 29,90<span style="display:none;">29.90</span>
+							R$ 28,00<span style="display:none;">29.90</span>
 						</span>
 						<span></span>
 					</div>
@@ -940,7 +940,7 @@ document.head.appendChild(a);
 					<div id="precoProduto">R$ 0,00</div>
 					<span class="precoProduto" style="display:none">14.00</span>
 					<button class="btn adicionarProduto" onclick="finalizar()">FINALIZAR PEDIDO</button>
-					<a href="https://checkout.bspay.co/buy/BSYMIXYZDMZD" id="finalizarPedido" style="display: none;"></a>
+					<a href="https://checkout.bspay.co/buy/BSY2E3MGY2NT" id="finalizarPedido" style="display: none;"></a>
 				</div>
 			</div>
 		</div>
@@ -967,7 +967,7 @@ document.head.appendChild(a);
 				focusConfirm: true,
 			}).then((result) => {
 				if (result.isConfirmed) {
-					location.href = "https://checkout.bspay.co/buy/BSYMIXYZDMZD";
+					location.href = "https://checkout.bspay.co/buy/BSY2E3MGY2NT";
 				} else if (result.isDenied) {
 					Swal.fire({
 						title: "Selecione o dia e a hora, por gentileza!",
@@ -978,7 +978,7 @@ document.head.appendChild(a);
 						allowOutsideClick: false,
 						input: "datetime-local",
 					}).then((result) => {
-						location.href = "https://checkout.bspay.co/buy/BSYMIXYZDMZD";
+						location.href = "https://checkout.bspay.co/buy/BSY2E3MGY2NT";
 					});
 				}
 			});
